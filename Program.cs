@@ -21,6 +21,11 @@ namespace Exam
                     SecondTask secondTask = new SecondTask();
                     secondTask.ShowResults();
                     break;
+                
+                case 3:
+                    ThirdTask thirdTask = new ThirdTask();
+                    thirdTask.ShowResults();
+                    break;
             }
 
             Console.ReadKey();
