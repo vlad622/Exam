@@ -7,7 +7,7 @@ namespace Exam
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Which task you wanna see? [1, 2, 4 available]");
+            Console.WriteLine("Which task you wanna see? [1, 2, 3, 4 available]");
             int taskNum = Convert.ToInt32(Console.ReadLine());
 
             switch (taskNum)
@@ -25,6 +25,11 @@ namespace Exam
                 case 3:
                     ThirdTask thirdTask = new ThirdTask();
                     thirdTask.ShowResults();
+                    break;
+                
+                case 4:
+                    FourthTask fourthTask = new FourthTask();
+                    fourthTask.ShowResults();
                     break;
             }
 
